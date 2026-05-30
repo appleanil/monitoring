@@ -1,7 +1,21 @@
-values.yaml
-------------
+1. Search app password.
+2. Copy the code and paste in this yaml, accept in mobile.
+3. Update the code in alerts.yaml and email also.
+4. Delete the prometheus server and AlertManager pods
+5. Then reverse search in linux for upgrade helm last lo alerts.yaml
+6. Edit the svc as LoadBalancer alertmanager and prometheus server
+7. Create one yaml for which goes pending
 
 
+
+For more practices ask chtgrt for each yaml errors.
+----------------------------------------------------
+KubernetesAPIDown, KubernetesAPILatencyHigh, EtcdHighLatency, EtcdDown, ContainerHighMemory, ContainerHighCPU, HighNetworkTransmit, HighNetworkReceive, PersistentVolumeClaimPending, PersistentVolumeErrors, DeploymentGenerationMismatch, DeploymentReplicasMismatch, PodImagePullError, PodOOMKilled, PodNotReady, PodCrashLooping, DiskSpaceLow, NodeFilesystemReadOnly, LowMemory, HighCPUUsage, InstanceDown give deployment yaml for each errors
+
+
+
+alerts.yaml
+-----------
 alertmanager:
   config:
     global:
