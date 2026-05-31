@@ -10,7 +10,10 @@
 
 For more practices ask chtgrt for each yaml errors.
 ----------------------------------------------------
-KubernetesAPIDown, KubernetesAPILatencyHigh, EtcdHighLatency, EtcdDown, ContainerHighMemory, ContainerHighCPU, HighNetworkTransmit, HighNetworkReceive, PersistentVolumeClaimPending, PersistentVolumeErrors, DeploymentGenerationMismatch, DeploymentReplicasMismatch, PodImagePullError, PodOOMKilled, PodNotReady, PodCrashLooping, DiskSpaceLow, NodeFilesystemReadOnly, LowMemory, HighCPUUsage, InstanceDown give deployment yaml for each errors
+KubernetesAPIDown, KubernetesAPILatencyHigh, EtcdHighLatency, EtcdDown, ContainerHighMemory, ContainerHighCPU, HighNetworkTransmit, HighNetworkReceive,
+PersistentVolumeClaimPending, PersistentVolumeErrors, DeploymentGenerationMismatch, DeploymentReplicasMismatch, PodImagePullError, PodOOMKilled, PodNotReady,
+PodCrashLooping, DiskSpaceLow, NodeFilesystemReadOnly, LowMemory, HighCPUUsage, InstanceDown give deployment yaml for each errors
+
 
 
 
